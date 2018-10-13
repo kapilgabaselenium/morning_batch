@@ -17,6 +17,7 @@ public class TC1
 	{
 	WsdlProject ws=new WsdlProject("Documents:\\my_project.xml");
 	TestSuite ts=ws.getTestSuiteByName("Library Management");
+	System.out.println("code changes");
 	for(int i=0;i<ts.getTestCaseCount();i++)
 	{
 	TestCase tc=ts.getTestCaseAt(i);
